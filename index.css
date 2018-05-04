@@ -1,0 +1,55 @@
+#postcard {
+    position: relative;
+    background-image: url(imgs/default.png);
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#to {
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#from {
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    right: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#message {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 60vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.newPost {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 5px;;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+
+#newTo {
+    position: absolute;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 5px;
+    left: 5px;
+}
